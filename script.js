@@ -5,8 +5,8 @@ let photosArray = [];
 
 // Unsplash API
 const count = 5;
-const apiKey = 'Ckhx8SOTKAb2oKBtrRKByqzV4GjMRusWmqDZTBqUo34';
-const apiUrl = `https://api.unsplash.com/photos/random/?client_id=${apiKey}&count=${count}`;
+const apiKey = 'ejhPW8Q5gt_o9K-aK0kVXvQyHqz4A1IzMcn15Bh0258';
+const apiUrl = `https://api.unsplash.com/photos/random?client_id=${apiKey}&count=${count}`;
 
 // Create elements for links & photos, add to DOM
 function displayPhotos(){
